@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw biometric datasets
+**/data/
+*.wav
+
+# Generated feature arrays
+*.npy
+*.npz
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Local environments
+.env
+.venv/
+venv/
+spyder-env/
+
+# Spyder settings
+.spyproject/
