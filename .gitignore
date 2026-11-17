@@ -226,6 +226,10 @@ __marimo__/
 # Generated feature arrays
 *.npy
 *.npz
+!face/face_split_indices.npz
+!face/face_scores.npz
+!voice/voice_features.npz
+!voice/voice_noisy_features.npz
 
 # Python temporary files
 __pycache__/
