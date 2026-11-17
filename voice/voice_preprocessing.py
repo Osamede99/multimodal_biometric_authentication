@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 # <END SETUP>
 
 # <LOAD DATA>
-DATA_DIRECTORY = Path(r"C:\Users\osame\OneDrive\Desktop\Biometrics Project\AudioMNIST-master\data")
+DATA_DIRECTORY = Path(r"C:\path\to\AudioMNIST-master\data")
 
 # Check whether the dataset folder is found
 if not DATA_DIRECTORY.is_dir():
